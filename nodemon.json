@@ -1,0 +1,7 @@
+{
+    "env":{
+        "MONGO_USER":"lms_task",
+        "MONGO_PASSWORD":"RRpe2FGi9XBtI3eB",
+        "MONGO_DB":"lms"
+    }
+}
