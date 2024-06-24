@@ -1,0 +1,11 @@
+[build]
+  functions = "functions"
+  command = "npm run build"
+
+[dev]
+  command = "npm run start"
+  targetPort = 3001
+  framework = "#custom"
+
+[build.environment]
+  NODE_VERSION = "14"
