@@ -21,7 +21,7 @@ app.use('/users',userRoutes)
 app.use('/track',trackRoutes)
 app.use('/message',messageRoutes)
 mongoose.connect(
-    'mongodb+srv://lms_task:RRpe2FGi9XBtI3eB@cluster0.nowg9nv.mongodb.net/'
+    'mongodb+srv://lms_app:fyQNemTn5mXwrlBO@cluster0.hpulfff.mongodb.net/'
   
     
 ).then(()=>{
