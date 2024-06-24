@@ -25,7 +25,7 @@ app.use('/.netlify/functions/server/track', trackRoutes);
 app.use('/.netlify/functions/server/message', messageRoutes);
 
 mongoose.connect(
-    process.env.MONGODB_URI,
+    'mongodb+srv://lms_task:RRpe2FGi9XBtI3eB@cluster0.nowg9nv.mongodb.net/',
     { useNewUrlParser: true, useUnifiedTopology: true }
 ).then(() => {
     console.log("Connected to MongoDB");
